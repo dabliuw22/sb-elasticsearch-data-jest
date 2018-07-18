@@ -1,0 +1,13 @@
+spring:
+  data:
+    jest:
+      uri: http://search-available-23vj7rxvnaxdazrcwdkgndahau.us-east-1.es.amazonaws.com
+      multi-threaded: true
+      default-max-total-connection-per-route: 2
+      max-total-connection: 10
+      read-timeout: 100000
+      connection-timeout: 120000
+
+elasticsearch: 
+  index: hometype_store_products
+  type: product
